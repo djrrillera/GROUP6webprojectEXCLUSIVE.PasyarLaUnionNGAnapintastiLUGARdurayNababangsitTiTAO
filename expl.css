@@ -1,181 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&family=Moon+Dance&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&family=Moon+Dance&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&family=Moon+Dance&display=swap');
-.banner{
-    height: 600vh;
-    width: 100%;
-    background: url(/image/overlay.png), url(/image/bg.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&family=Moon+Dance&display=swap");
+.banner {
+  height: 600vh;
+  width: 100%;
+  background: url(image/overlay.png), url(/image/bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.logo{
-    margin-left: 13%;
+.logo {
+  margin-left: 13%;
 }
-.banner .navbar{
-    margin-top: 2%;
-}
-
-.banner .navbar-brand{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    margin-left: 15%;
-    font-family: 'Moon Dance', cursive;
+.banner .navbar {
+  margin-top: 2%;
 }
 
-.banner .nav{
-    margin-right: 15%;
-}
-.banner .nav li a{
-    color: #fff;
-   font-size: 1.2em;
-}
-.banner .nav li a:hover{
-    text-decoration: underline;
-}
-.banner .info{
-    margin-top: 15%;
-    transform: translateY(-15%);
-}
-.banner .info h1{
-    font-size: 2.5em;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 2px;
-}
-.banner .info p{
-    font-size: 2em;
-    font-weight: 500;
-    color: rgb(197, 194, 194);
-    letter-spacing: 2px;
-}
-.banner .info a{
-    margin-left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    background: rgb(209, 3, 3);
+.banner .navbar-brand {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 15%;
+  font-family: "Moon Dance", cursive;
 }
 
-.banner .info a:hover{
-    text-decoration: underline;
+.banner .nav {
+  margin-right: 15%;
+}
+.banner .nav li a {
+  color: #fff;
+  font-size: 1.2em;
+}
+.banner .nav li a:hover {
+  text-decoration: underline;
+}
+.banner .info {
+  margin-top: 15%;
+  transform: translateY(-15%);
+}
+.banner .info h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.banner .info p {
+  font-size: 2em;
+  font-weight: 500;
+  color: rgb(197, 194, 194);
+  letter-spacing: 2px;
+}
+.banner .info a {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  background: rgb(209, 3, 3);
+}
+
+.banner .info a:hover {
+  text-decoration: underline;
 }
 /* modal  */
-.modal{
+.modal {
   color: white;
 }
-.modal-body, .modal-content{
+.modal-body,
+.modal-content {
   background-color: rgba(60, 61, 60, 0.521);
   border: solid 1px;
   border-bottom: white;
   border-bottom: solid 1px;
 }
-.modal-button{
+.modal-button {
   color: white;
-  background-color:green;
+  background-color: green;
   width: 100%;
 }
-.spacing{
+.spacing {
   letter-spacing: 10px;
   text-align: left;
 }
-.fa-instagram:hover{
+.fa-instagram:hover {
   color: rgb(255, 0, 179);
 }
-.fa-facebook:hover{
+.fa-facebook:hover {
   color: blue;
 }
-.fa-twitter:hover{
+.fa-twitter:hover {
   color: rgb(0, 195, 255);
 }
 
-
 /* dropdown  */
- .dropdown-menu,
-.dropdown-item{
-  background-color:rgba(60, 61, 60, 0);
+.dropdown-menu,
+.dropdown-item {
+  background-color: rgba(60, 61, 60, 0);
   color: white;
 }
-.dropdown-item{
+.dropdown-item {
   border: solid 1px;
   border-radius: 3px;
 }
-.dd{
+.dd {
   color: #fff;
   font-size: 1.2em;
 }
-.dd:hover{
+.dd:hover {
   color: #fff;
   text-decoration: underline;
 }
 
 /* searchbar */
-.search{
+.search {
   background-color: rgba(0, 0, 0, 0);
   color: white;
 }
 /* table/ */
-table{
-    margin: 14%;
-    margin-top: 5%;
-    border-spacing: 50px;
-    margin-bottom: 0%;
-  }
-
-  /* FOOTER  */
-  .container{
-    max-width: 1170px;
-    margin: auto;
-}
-ul{
-    list-style: none;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer{
-    padding: 70px 0;
-}
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
-}
-.footer-col h4{
-    font-size: 18px;
-    color: #ffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-    text-align: center;
-    margin-right: 35%;
+table {
+  margin: 14%;
+  margin-top: 5%;
+  border-spacing: 50px;
+  margin-bottom: 0%;
 }
 
-.social-links{
-    margin-left: 15%;
+/* FOOTER  */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  margin-right: 35%;
 }
 
-.footer-col a,i{
-    color: white;
+.social-links {
+  margin-left: 15%;
+}
+
+.footer-col a,
+i {
+  color: white;
 }
 /* END OF FOOTER  */
 
-
-.slider{
+.slider {
   width: 800px;
   height: 500px;
   border-radius: 10px;
@@ -185,35 +184,34 @@ ul{
   margin-bottom: 5%;
 }
 
-.slides{
+.slides {
   width: 500%;
   height: 500px;
   display: flex;
 }
 
-.slides input{
+.slides input {
   display: none;
 }
 
-.slide{
+.slide {
   width: 20%;
   transition: 2s;
 }
-.slide img{
+.slide img {
   width: 800px;
   height: 500px;
   border-radius: 5px;
 }
 
-.navigation-manual{
+.navigation-manual {
   position: absolute;
   width: 800px;
-  margin-top:  -40px;
+  margin-top: -40px;
   display: flex;
   justify-content: center;
-
 }
-.manual-btn{
+.manual-btn {
   border: 2px solid white;
   padding: 5px;
   border-radius: 10px;
@@ -221,78 +219,75 @@ ul{
   transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
-.manual-btn:hover{
+.manual-btn:hover {
   background: white;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -10%;
-}#radio3:checked ~ .first{
+}
+#radio3:checked ~ .first {
   margin-left: -17%;
-}#radio4:checked ~ .first{
+}
+#radio4:checked ~ .first {
   margin-left: -22%;
 }
- .navigation-auto{
-   position: absolute;
-   display: flex;
-   width: 800px;
-   justify-content: center;
-   margin-top: 460px;
- }
-
- .navigation-auto div{
-   border-radius: 10px;
-   border: solid 2px;
-   padding: 5px;
-  transition: 1s;
-  }
-
-  .navigation-auto div:not(:last-child){
-    margin-right: 40px;
-  }
-
-  #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: white;
-  }
-  #radio1:checked ~ .navigation-auto .auto-btn2{
-    background: white;
-  }
-  #radio1:checked ~ .navigation-auto .auto-btn3{
-    background: white;
-  }
-  #radio1:checked ~ .navigation-auto .auto-btn4{
-    background: white;
-  }
-
-.navigation-auto{
+.navigation-auto {
   position: absolute;
   display: flex;
   width: 800px;
   justify-content: center;
-  margin-top:  460px;
+  margin-top: 460px;
 }
 
+.navigation-auto div {
+  border-radius: 10px;
+  border: solid 2px;
+  padding: 5px;
+  transition: 1s;
+}
 
-.navigation-auto div{
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: white;
+}
+#radio1:checked ~ .navigation-auto .auto-btn2 {
+  background: white;
+}
+#radio1:checked ~ .navigation-auto .auto-btn3 {
+  background: white;
+}
+#radio1:checked ~ .navigation-auto .auto-btn4 {
+  background: white;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div {
   border: 2px solid white;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
 }
 
-.navigation-auto div:not(:last-child){
-  margin-right: 40px
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
 }
-
-
-
-
 
 .divider {
   margin-right: 0;
@@ -304,23 +299,26 @@ ul{
   padding: 0;
 }
 
-
-table{
-    width: 100%;
-    margin: auto;
-    background: rgb(255, 255, 255);
-    color: black;
+table {
+  width: 100%;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  color: black;
 }
-th{
-    padding-left: 10%;
+th {
+  padding-left: 10%;
 }
 
-#tab-con{
+#tab-con {
   max-width: 1100px;
   margin: auto;
 }
 
-table h1,h2,h3,h4,p{
+table h1,
+h2,
+h3,
+h4,
+p {
   text-align: left;
   padding: 10px 20px;
   letter-spacing: 1px;
