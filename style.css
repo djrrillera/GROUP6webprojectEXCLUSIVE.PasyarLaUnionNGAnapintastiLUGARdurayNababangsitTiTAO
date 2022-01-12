@@ -12,7 +12,7 @@ body{
 .banner{
     height: 267vh;
     width: 100%;
-    background: url(image/overlay.png), url(image/bg.jpg);
+    background: url(../image/overlay.png), url(../image/bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@ table{
   /* TANGADAN FALLS */
   .wcdiv{
     height: 650px;
-    background-image: url(image/tangadan.jpg);
+    background-image: url(../image/tangadan.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
@@ -204,7 +204,7 @@ table{
 
   /* COVID19 */
 .c19div{
-    background: url(image/c19.jpg);
+    background: url(../image/c19.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,7 +236,7 @@ table{
   }
 /* EXPLORE */
 .expldiv{
-    background: url(image/expl.jpg);
+    background: url(../image/expl.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
@@ -269,7 +269,7 @@ table{
   /* EVENT */
 
 .eventdiv{
-    background: url(image/overlay.png),url(image/event.jpg);
+    background: url(../image/overlay.png),url(../image/event.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -302,7 +302,7 @@ table{
 
   /* VIRTUAL */
   .vrdiv{
-    background:url(image/vr.jpg);
+    background:url(../image/vr.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
