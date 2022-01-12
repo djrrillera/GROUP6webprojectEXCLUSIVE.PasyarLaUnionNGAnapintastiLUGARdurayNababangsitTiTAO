@@ -11,7 +11,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&family=Moon+Dance&display=swap");
 .banner {
-  height: 600vh;
+  height: 660vh;
   width: 100%;
   background: url(image/overlay.png), url(image/bg.jpg);
   background-position: top;
