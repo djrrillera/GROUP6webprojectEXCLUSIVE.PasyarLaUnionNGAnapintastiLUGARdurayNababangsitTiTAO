@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pasyar ELYU</title>
+  </head>
+  <body>
+    <div class="container-fluid banner">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-md">
+            <a href="home.html" class="logo"
+              ><div class="navbar-brand">
+                <img
+                  class="logo-img"
+                  src="/image/logo.png"
+                  alt=""
+                  width="70"
+                />Pasyar Elyu
+              </div></a
+            >
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="" >Home</a>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#modalBookForm">Book</a>
+              </li>
+              <!-- modalBookForm -->
+              <div class="modal fade" id="modalBookForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                      <i class="fas fa-user prefix grey-text"></i>
+                      <input type="text" id="form34" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                    </div>
+            
+                    <div class="md-form mb-5">
+                      <i class="fas fa-envelope prefix grey-text"></i>
+                      <input type="email" id="form29" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                    </div>
+
+                    <div class="md-form mb-5">
+                      <i class='fas fa-address-book'></i>
+                      <input type="number" id="form29" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form29">Contact number</label>
+                    </div>
+
+                    <div class="md-form mb-5">
+                      <i class="material-icons"></i>
+                      <input type="date" id="form29" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form29">Date of Booking</label>
+                    </div>
+            
+                    <div class="md-form mb-5">
+                      <i class="fas fa-tag prefix grey-text"></i>
+                      <input type="text" id="form32" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                    </div>
+            
+                    <div class="md-form">
+                      <i class="fas fa-pencil prefix grey-text"></i>
+                      <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                      <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                    </div>
+            
+                  </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <a href="home.html" class="btn modal-button">Book <i class="fas fa-paper-plane-o ml-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--modalBookForm END -->
+
+
+
+             
+              <!-- contact us -->
+              <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#modalcontactusForm">Contact Us</a>
+
+                <div class="modal fade" id="modalcontactusForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <p>Follow us here:</p>
+                    <h4 class="modal-title w-100 font-weight-bold spacing">
+                      <a href="https://www.facebook.com/PasyarElyu/" target="blank"><i class="fab fa-facebook" style="font-size:48px;"></i></a>
+                      <a href="https://www.instagram.com/pasyarelyu/?fbclid=IwAR0FCeK5FKwJFTLFbRlUgRAxQ7T_feRhiOkLvwBEAatFxL1pIGWr6qhDAII" target="blank"><i class="fab fa-instagram" style="font-size:48px;"></i></a>
+                      <a href="https://twitter.com/PasyarElyu?fbclid=IwAR24fOeTDEeOZnkizxBRoM-vpvpqFMxQ4PRnNE25keI9SHDpVt1QhFgMk-M" target="blank"><i class="fab fa-twitter" style="font-size:48px;"></i></a>
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+            
+                    <div class="md-form mb-5">
+                      <i class="fas fa-envelope prefix grey-text"></i>
+                      <input type="email" id="form29" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                    </div>
+            
+                    <div class="md-form">
+                      <i class="fas fa-pencil prefix grey-text"></i>
+                      <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                      <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                    </div>
+            
+                  </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <a href="home.html" class="btn modal-button">Send <i class="fas fa-paper-plane-o ml-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+              </li>
+              <!-- contact us END -->
+
+              <div class="dropdown show">
+                <a class="nav-link dd" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalLong">About Us</a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalLong">Career</a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalLong">Team Management</a>
+                </div>
+              </div>
+
+              <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">About</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>LOREM</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus pariatur fugiat autem qui et dolor incidunt porro quasi iusto repellendus possimus consequatur tempora maiores tenetur minima, explicabo, eos fuga?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero beatae fugiat omnis dicta nostrum culpa consequuntur quos numquam repellat maiores perspiciatis vel ea rem magnam aliquid, fugit sunt sequi.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nesciunt nam necessitatibus odio eos magnam. Veritatis, nulla commodi laboriosam nesciunt id necessitatibus, facere ut pariatur rerum illum doloribus molestiae quas.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LOREM  -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<li>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2 search" type="search" placeholder="Search..." aria-label="Search">
+  </form>
+</li>   
+
+</ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- heading -->
+      <div id="tab-con">
+        <table class="tab">
+          <tr>
+            <!-- tangadan falls -->
+            <td class="wc" rowspan="2">
+              <div class="wcdiv">
+                <h1>Tangadan Falls</h1>
+                <p>
+                  <strong
+                    >Looking for a place to relax and unwind with friends and
+                    family?</strong
+                  >
+                  This is the place for you.<i
+                    >Northern Luzon province of La Union,</i
+                  >
+                  on the other hand, is home to both – beautiful beaches and
+                  majestic waterfalls such as Tangadan Falls.
+                </p>
+                <a href="explore.html" class="btn btn-md text-center"
+                  >Explore more..</a
+                >
+              </div>
+            </td>
+            <!-- tangadan falls end -->
+
+            <!-- Covid-19 -->
+            <td class="c19">
+              <div class="c19div">
+                <h1>Covid-19 Response</h1>
+                <p>HOW CAN I PROTECT MYSELF FROM COVID-19?</p>
+                <a
+                  href="https://doh.gov.ph/COVID-19/FAQs?gclid=CjwKCAiAz--OBhBIEiwAG1rIOq6nI_HOwMiTeajZHRyzzSvKTHHE2vSJ5-sLjSP1ylZbC7g91Iu-ohoCa0QQAvD_BwE"
+                  target="blank"
+                  >Learn more..</a
+                >
+              </div>
+            </td>
+            <!-- Covid-19 end -->
+
+            <!-- EXPLORE -->
+            <td class="expl">
+              <div class="expldiv">
+                <h1>EXPLORE</h1>
+                <p>Find something different on your trip.</p>
+                <a href="explore.html" target="blank">Learn more..</a>
+              </div>
+            </td>
+          </tr>
+          <!-- end of explore -->
+
+          <!-- EVENTS -->
+          <tr>
+            <td class="event">
+              <div class="eventdiv">
+                <h1>EVENTS</h1>
+                <p>The much-awaited summer festival in La Union</p>
+                <a href="events.html">Events..</a>
+              </div>
+            </td>
+            <!-- END OF EVENTS -->
+            <!-- VR -->
+            <td class="vr">
+              <div class="vrdiv">
+                <h1>Virtual</h1>
+                <p>Unique Experience with virtual tour</p>
+                <a href="virtual.html">Lear more..</a>
+              </div>
+            </td>
+          </tr>
+          <!-- end VR -->
+
+          <tr class="Article">
+            <td colspan="3"><br><br><br>
+              <div class="divider-icon icon-inactive btn-,Default"></div>
+              <br><br><br><br>
+              <h5>UPDATED Guide to Traveling to La Union (2022)</h5>
+              <img
+                src="/image/surf.jpg"
+                width="300px"
+                alt=""
+                style="float: left; padding-left: 20px; margin-right: 2%"
+              />
+              <p>
+                We know you’ve been patiently waiting for this day to come. At
+                last, La Union has reopened to tourists in Luzon! You can
+                finally bury your toes in the warm sand, catch some waves, and
+                watch the sunset on the sandy shores of San Juan. Before that,
+                though, you just have to comply with a few requirements and
+                protocols for everybody’s safety. Since we know you’re excited
+                to hit the beach again, we’ve put together a comprehensive guide
+                for travelling to La Union this 2021 in the new normal. This
+                comprehensive travel guide will cover La Union’s new travel
+                requirements and the safety guidelines you need to follow while
+                you’re there. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Assumenda magnam facilis, sapiente consectetur
+                in doloremque. Magnam sit atque neque, ut corrupti pariatur
+                assumenda ullam iste laborum, consectetur unde obcaecati
+                facilis?
+              </p>
+              <br><br><br><br>
+              <div class="divider-icon icon-inactive btn-,Default"></div>
+              <br><br><br><br>
+              <h5>FAQS: VACCINES</h5>
+              <p>
+                <strong>1. How do vaccines prevent disease?</strong>
+                <img src="/image/vaccine.jpeg" alt="" style="float: right" />
+                <br />
+                Vaccines mimic the virus or bacteria that causes disease and
+                triggers the body’s creation of antibodies. These antibodies
+                will provide protection once a person is infected with the
+                actual disease-causing virus or bacteria. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Ad, aliquid quae voluptas
+                explicabo, magnam repellendus vitae esse natus quo magni omnis
+                odit aut aperiam non excepturi dolores voluptates deleniti
+                maiores. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Ipsum rem natus eos dolore maxime culpa dicta nemo
+                deleniti, non laborum vero adipisci, voluptates perspiciatis
+                optio animi sunt nesciunt repudiandae illum.
+              </p>
+              <a href="https://doh.gov.ph/faqs/vaccines" target="blank">
+                Learn more..</a>
+
+              <br><br><br><br><br><br><br><br>
+            </td>
+          </tr>
+          
+        </table>
+        <div class="divider-icon icon-inactive btn-,Default"></div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          
+          <div class="row">
+            <div class="footer-col">
+              <h4>Pasyar ELYU</h4>
+              <ul>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">about us</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">our services</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">privacy policy</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">FAQ</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">shipping</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">returns</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">order status</a></li>
+                <li><a href=""data-toggle="modal" data-target="#exampleModalLong">payment option</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Trip</h4>
+              <ul>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Adventure</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Resort</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Wildlife</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Hiking</a></li>
+                <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Surfing</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow us</h4>
+              <div class=" social-links">
+                <a href="https://www.facebook.com/PasyarElyu/" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/PasyarElyu?fbclid=IwAR24fOeTDEeOZnkizxBRoM-vpvpqFMxQ4PRnNE25keI9SHDpVt1QhFgMk-M" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pasyarelyu/?fbclid=IwAR0FCeK5FKwJFTLFbRlUgRAxQ7T_feRhiOkLvwBEAatFxL1pIGWr6qhDAII" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
