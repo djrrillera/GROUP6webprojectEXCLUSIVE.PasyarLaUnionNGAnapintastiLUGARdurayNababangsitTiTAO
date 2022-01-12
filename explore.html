@@ -29,8 +29,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+
     <link rel="stylesheet" href="expl.css" />
-    <title>Pasyar ELYU</title>
+    <title>Explore Pasyar Elyu</title>
   </head>
   <body>
     <div class="container-fluid banner">
@@ -379,11 +380,9 @@
                         class="btn btn-secondary"
                         data-dismiss="modal"
                       >
-                        Close
+                        Got it!
                       </button>
-                      <button type="button" class="btn btn-primary">
-                        Save changes
-                      </button>
+
                     </div>
                   </div>
                 </div>
@@ -443,59 +442,244 @@
       </div>
       <!-- content start -->
 
-      <table>
-        <tr>
-          <th colspan="3">NAME OF PLACE</th>
-        </tr>
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
 
-        <tr>
-          <td rowspan="3">Alfreds Futterkiste</td>
-          <td>Hotels</td>
-        </tr>
-        <tr>
-          <td>map</td>
-        </tr>
-        <tr>
-          <td>History</td>
-        </tr>
-      </table>
+          <div class="slide first">
+            <img src="image/slide/1.jpg" alt="" />
+          </div>
+          <div class="slide first">
+            <img src="image/slide/2.jpg" alt="" />
+          </div>
 
-      <table>
-        <tr>
-          <th colspan="3">NAME OF PLACE</th>
-        </tr>
+          <div class="slide first">
+            <img src="image/slide/3.jpg" alt="" style="margin-left: 50%" />
+          </div>
 
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td rowspan="3">Hotels</td>
-        </tr>
+          <div class="slide first">
+            <img src="image/slide/4.jpg" alt="" style="margin-left: 140%" />
+          </div>
+          <!-- ...auto -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
 
-        <tr>
-          <td>map</td>
-        </tr>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
 
-        <tr>
-          <td>History</td>
-        </tr>
-      </table>
+      <script type="text/javascript">
+        var counter = 1;
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+        5000;
+      </script>
+      <div class="divider-icon icon-inactive btn-,Default"></div>
 
-      <table>
-        <tr>
-          <th colspan="3">NAME OF PLACE</th>
-        </tr>
+      <div id="tab-con">
+        <table>
+          <tr>
+            <th colspan="3"></th>
+          </tr>
 
-        <tr>
-          <td rowspan="3">Alfreds Futterkiste</td>
-          <td>Hotels</td>
-        </tr>
-        <tr>
-          <td>map</td>
-        </tr>
-        <tr>
-          <td>History</td>
-        </tr>
-      </table>
+          <tr>
+            <td rowspan="3">
+              <iframe style="padding: 10px 10px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489503.03166116116!2d120.14976553086345!3d16.5643002324727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391909fd996bb73%3A0xa80df5423012ac11!2sLa%20Union!5e0!3m2!1sen!2sph!4v1641994241732!5m2!1sen!2sph"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <br>
+              <img src="image/explore/immuki/84515652_2868529930040784_1375811778780332032_immuki.jpg" width="200px" style="padding: 10px 10px;" alt="">
+              <img src="image/explore/tapuak/La-Union-Tapuakan-River16.jpg" width="155px" alt="">
+            </td>
+            <td>
+              <h2>La Union</h2>
+              <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              assumenda quam illo alias consectetur praesentium reprehenderit in
+              adipisci et voluptas harum, qui sunt nulla eligendi deleniti
+              officiis sit non cumque!</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                assumenda quam illo alias consectetur praesentium reprehenderit in
+                adipisci et voluptas harum, qui sunt nulla eligendi deleniti
+                officiis sit non cumque!</p>
+               
+          </tr>
+          <tr>
+            <td> <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              assumenda quam illo alias consectetur praesentium reprehenderit in
+              adipisci et voluptas harum, qui sunt nulla eligendi deleniti
+              officiis sit non cumque!</p>
+        </td></td>
+          </tr>
+        </table>
 
+        <table>
+          <tr>
+            <th colspan="3" > <h4  style="text-align: right; padding-right: 20%;">Pugad Resort</h4></th>
+          </tr>
+
+          <tr>
+            <td><p>
+              <strong>Pugad Resort</strong> dolor sit amet consectetur adipisicing elit.
+              Quaerat libero beatae fugiat omnis dicta nostrum culpa
+              consequuntur quos numquam repellat maiores perspiciatis
+              vel ea rem magnam aliquid, fugit sunt sequi.
+            </p></td>
+            <td rowspan="3"><p>
+              <img src="image/explore/pugad/XPRO8799.jpg" width="500px" alt="">
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122529.52174458634!2d120.41265455109145!3d16.32051425467879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391751b228ff985%3A0xe1e387f54fc32f4f!2sPugo%2C%20La%20Union!5e0!3m2!1sen!2sph!4v1642000629490!5m2!1sen!2sph" width="500" height="200" style="margin: 0 3%;"allowfullscreen="" loading="lazy"></iframe>
+            <br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cottages
+            <p>
+              <img src="image/explore/pugad/269864611_336689798457440_2897915545985818500_pugad.jpg" width="220px" alt="">
+           
+              <img style="float: right;" src="image/explore/pugad/pugad-adventure-la-union.jpg" width="220px" alt="">
+            </p>
+          </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum temporibus nesciunt ad ullam reiciendis autem quisquam eum, ea corporis eos impedit neque consequuntur ut quidem dolore mollitia placeat est maxime.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aperiam! At fugiat temporibus molestias repudiandae nesciunt nostrum officia aliquid voluptates enim sunt molestiae, laudantium eligendi magni officiis dolorum. Ullam, atque? lore</p> 
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio totam harum nam atque consequatur? Blanditiis error labore maxime tenetur obcaecati iusto, natus magnam facilis quod. Commodi in ad repudiandae labore.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur illo eveniet nihil, voluptatem iste quam esse quasi, dolorem ipsa ullam! Doloribus, necessitatibus error ab nam quisquam magni quasi atque?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed illum laborum ex rerum corporis veritatis voluptas quia et, provident distinctio eius at fuga neque explicabo expedita beatae, delectus dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis inventore eius, eligendi eum in aperiam dolorem est modi quod, laudantium, autem similique officia recusandae tempora optio asperiores itaque dolor.</p>
+            </td>
+          </tr>
+        </table>
+
+        <table>
+          <tr>
+            <td rowspan="3">
+              <h4>Immuki Island</h4>
+              <p>
+                <img style="margin-top: 0%;" src="image/explore/immuki/84515652_2868529930040784_1375811778780332032_immuki.jpg" width="500" alt="">
+              </p>
+              <p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15277.891501302034!2d120.3255117!3d16.8028812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97f596ae92a3fe58!2sImmuki%20Island!5e0!3m2!1sen!2sph!4v1642002644070!5m2!1sen!2sph" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </p>
+              <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quam dolor odio esse magnam recusandae. Temporibus nostrum vitae atque minima voluptatum. Eaque quam et dolorum nulla laborum veniam dicta hic.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit tempora in harum fuga, quaerat iusto esse eaque delectus debitis vero quia neque. Eveniet cum illo blanditiis mollitia perspiciatis ducimus! lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eius dolores quos molestiae iusto assumenda sequi, lorem omnis, molestias sunt eveniet aut quae nihil, labore recusandae voluptas quisquam? Mollitia, ducimus porro!</p>
+            
+            </td>
+            <td style="width: 50%;"><p> <strong>Immuki Island</strong> dolor sit amet consectetur adipisicing elit. Magni deleniti repellat, totam inventore error at 
+              nihil labore sed magnam nemo tempora vitae dolor mollitia nam minima optio quo exercitationem laborum.</p>
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, cum accusantium non natus fugit placeat magni
+               iusto consequatur totam error reiciendis a assumenda itaque ea, exercitationem doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore consequuntur eligendi qui, perspiciatis nihil quisquam temporibus fugiat neque nobis voluptate doloribus sit autem ipsum, excepturi molestiae odio? Reprehenderit, ipsam.
+                pariatur ipsa earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quas blanditiis ullam, in esse porro aperiam aspernatur magnam voluptate vitae dolorum eligendi doloribus enim itaque? Consequuntur expedita enim mollitia sapiente.</p>
+            
+            </td>
+          </tr>
+          <tr>
+            <td> <p> <strong>Urban Legend</strong>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores quis magnam pariatur quos sed sint quidem nam error rerum. Numquam corrupti laboriosam placeat eaque unde explicabo similique veniam consequatur!
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero velit possimus ipsa fugit corporis aspernatur cupiditate molestias tempore, corrupti vero unde a doloribus distinctio, modi, odio pariatur accusantium iure omnis.</p>
+            
+            </p></td>
+          </tr>
+
+        </table>
+        <table>
+          <tr>
+            <th colspan="3" > <h4  style="text-align: right; padding-right: 20%;">Thunderbird</h4></th>
+          </tr>
+
+          <tr>
+            <td><p>
+              <strong>Thunderbird</strong> dolor sit amet consectetur adipisicing elit.
+              Quaerat libero beatae fugiat omnis dicta nostrum culpa
+              consequuntur quos numquam repellat maiores perspiciatis
+              vel ea rem magnam aliquid, fugit sunt sequi.
+            </p></td>
+            <td rowspan="3"><p>
+              <img src="image/explore/Thunderbird/70594962_111100060289869_7682743095703633920_n.jpg" width="500px" alt="">
+            </p>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1aRoXZVXbbxqx350Q3byu2VnKCPU&hl=en&ehbc=2E312F" width="500" height="200"></iframe>
+            <br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cottages
+            <p>
+              <img src="image/explore/Thunderbird/70983829_111102713622937_2690098073736052736_n.jpg" width="220px" alt="">
+           
+              <img style="float: right;" src="image/explore/Thunderbird/71488900_111099093623299_8891118705480564736_n.jpg" width="220px" alt="">
+            </p>
+          </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum temporibus nesciunt ad ullam reiciendis autem quisquam eum, ea corporis eos impedit neque consequuntur ut quidem dolore mollitia placeat est maxime.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aperiam! At fugiat temporibus molestias repudiandae nesciunt nostrum officia aliquid voluptates enim sunt molestiae, laudantium eligendi magni officiis dolorum. Ullam, atque? lore</p> 
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio totam harum nam atque consequatur? Blanditiis error labore maxime tenetur obcaecati iusto, natus magnam facilis quod. Commodi in ad repudiandae labore.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur illo eveniet nihil, voluptatem iste quam esse quasi, dolorem ipsa ullam! Doloribus, necessitatibus error ab nam quisquam magni quasi atque?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed illum laborum ex rerum corporis veritatis voluptas quia et, provident distinctio eius at fuga neque explicabo expedita beatae, delectus dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis inventore eius, eligendi eum in aperiam dolorem est modi quod, laudantium, autem similique officia recusandae tempora optio asperiores itaque dolor.</p>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td rowspan="3">
+              <h4>San Juan Beach Resort</h4>
+              <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mPubmtNXOOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </p>
+              <p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61154.407543095345!2d120.34674775092478!3d16.66935203414562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33918d81f654ce1d%3A0x212561683a40ebb4!2sSan%20Juan%2C%20La%20Union!5e0!3m2!1sen!2sph!4v1642005019733!5m2!1sen!2sph" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </p>
+              <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quam dolor odio esse magnam recusandae. Temporibus nostrum vitae atque minima voluptatum. Eaque quam et dolorum nulla laborum veniam dicta hic.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit tempora in harum fuga, quaerat iusto esse eaque delectus debitis vero quia neque. Eveniet cum illo blanditiis mollitia perspiciatis ducimus! lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eius dolores quos molestiae iusto assumenda sequi, lorem omnis, molestias sunt eveniet aut quae nihil, labore recusandae voluptas quisquam? Mollitia, ducimus porro!</p>
+            
+            </td>
+            <td style="width: 50%;"><p> <strong>San Juan Beach</strong> dolor sit amet consectetur adipisicing elit. Magni deleniti repellat, totam inventore error at 
+              nihil labore sed magnam nemo tempora vitae dolor mollitia nam minima optio quo exercitationem laborum.</p>
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, cum accusantium non natus fugit placeat magni
+               iusto consequatur totam error reiciendis a assumenda itaque ea, exercitationem doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore consequuntur eligendi qui, perspiciatis nihil quisquam temporibus fugiat neque nobis voluptate doloribus sit autem ipsum, excepturi molestiae odio? Reprehenderit, ipsam.
+                pariatur ipsa earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quas blanditiis ullam, in esse porro aperiam aspernatur magnam voluptate vitae dolorum eligendi doloribus enim itaque? Consequuntur expedita enim mollitia sapiente.</p>
+            
+            </td>
+          </tr>
+          <tr>
+            <td> <p> <strong>Come and visit here!</strong>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores quis magnam pariatur quos sed sint quidem nam error rerum. Numquam corrupti laboriosam placeat eaque unde explicabo similique veniam consequatur!
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero velit possimus ipsa fugit corporis aspernatur cupiditate molestias tempore, corrupti vero unde a doloribus distinctio, modi, odio pariatur accusantium iure omnis.</p>
+            
+            </p></td>
+          </tr>
+
+        </table>
+
+
+
+      </div>
       <!-- footer  -->
       <footer class="footer">
         <div class="container">
